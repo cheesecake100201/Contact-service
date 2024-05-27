@@ -83,7 +83,6 @@ app.post('/identify', async (req, res) => {
       }
     }
 
-    // Convert sets to arrays
     let emailsArray = Array.from(emails);
     let phoneNumbersArray = Array.from(phoneNumbers);
 
